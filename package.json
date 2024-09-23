@@ -1,0 +1,16 @@
+{
+  "name": "connection-pool",
+  "version": "1.0.0",
+  "description": "A small prototype for doing connection pool with non-blocking queue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon connection-pool.js"
+  },
+  "author": "Sweta sharma",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^6.8.1"
+  }
+}
